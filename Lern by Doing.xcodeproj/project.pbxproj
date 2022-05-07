@@ -13,6 +13,8 @@
 		55480F762815AA99000093EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55480F752815AA99000093EB /* Preview Assets.xcassets */; };
 		55B46ACE28266622007D6BCA /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B46ACD28266622007D6BCA /* CardModel.swift */; };
 		55B46AD028266818007D6BCA /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B46ACF28266818007D6BCA /* CardData.swift */; };
+		55B46AD228266DC1007D6BCA /* sound-chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55B46AD128266DC1007D6BCA /* sound-chime.mp3 */; };
+		55B46AD428266DF3007D6BCA /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B46AD328266DF3007D6BCA /* PlaySound.swift */; };
 		55E98C142815BB4500637749 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E98C132815BB4500637749 /* Launch Screen.storyboard */; };
 		55E98C172815BFAB00637749 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E98C162815BFAB00637749 /* CardView.swift */; };
 /* End PBXBuildFile section */
@@ -25,6 +27,8 @@
 		55480F752815AA99000093EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		55B46ACD28266622007D6BCA /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 		55B46ACF28266818007D6BCA /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		55B46AD128266DC1007D6BCA /* sound-chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-chime.mp3"; sourceTree = "<group>"; };
+		55B46AD328266DF3007D6BCA /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		55E98C132815BB4500637749 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		55E98C152815BEA100637749 /* Lern-by-Doing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Lern-by-Doing-Info.plist"; sourceTree = SOURCE_ROOT; };
 		55E98C162815BFAB00637749 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -64,11 +68,13 @@
 				55480F6E2815AA98000093EB /* Lern_by_DoingApp.swift */,
 				55480F702815AA98000093EB /* ContentView.swift */,
 				55B46ACF28266818007D6BCA /* CardData.swift */,
+				55B46AD128266DC1007D6BCA /* sound-chime.mp3 */,
 				55B46ACD28266622007D6BCA /* CardModel.swift */,
 				55480F722815AA99000093EB /* Assets.xcassets */,
 				55480F742815AA99000093EB /* Preview Content */,
 				55E98C132815BB4500637749 /* Launch Screen.storyboard */,
 				55E98C162815BFAB00637749 /* CardView.swift */,
+				55B46AD328266DF3007D6BCA /* PlaySound.swift */,
 			);
 			path = "Lern by Doing";
 			sourceTree = "<group>";
@@ -140,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55E98C142815BB4500637749 /* Launch Screen.storyboard in Resources */,
+				55B46AD228266DC1007D6BCA /* sound-chime.mp3 in Resources */,
 				55480F762815AA99000093EB /* Preview Assets.xcassets in Resources */,
 				55480F732815AA99000093EB /* Assets.xcassets in Resources */,
 			);
@@ -153,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55B46AD028266818007D6BCA /* CardData.swift in Sources */,
+				55B46AD428266DF3007D6BCA /* PlaySound.swift in Sources */,
 				55480F712815AA98000093EB /* ContentView.swift in Sources */,
 				55B46ACE28266622007D6BCA /* CardModel.swift in Sources */,
 				55E98C172815BFAB00637749 /* CardView.swift in Sources */,
