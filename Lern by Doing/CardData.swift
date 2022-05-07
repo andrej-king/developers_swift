@@ -4,15 +4,7 @@ import SwiftUI
 
 let cardData: [Card] = [
     Card(
-        title: "SwiftUI",
-        headline: "Better apps. Less code.",
-        imageName: "developer-no1",
-        callToAction: "Design",
-        message: "Introducing a modern way to design user interfaces for any Apple devices.",
-        gradientColors: [Color("Color01"), Color("Color02")]
-    ),
-    Card(
-      title: "SwiftUI 2",
+      title: "SwiftUI",
       headline: "Better apps. Less code.",
       imageName: "developer-no1",
       callToAction: "Design",
